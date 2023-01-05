@@ -3,7 +3,7 @@ package date5_1_23_Yarin.hw;
 public class Rectangle {
 
 //    creating 2 private variables for the rectangle
-//    at the beginning i thought it would take 4 variables
+//    at the beginning I thought it would take 4 variables
 //    in order to create the functions, but it doesn't'
     private int a;
     private int b;
@@ -23,7 +23,7 @@ public class Rectangle {
         this.a = 5;
         this.b = 12;
     }
-//    overriding the 'toString()' method in order to print what i want
+//    overriding the 'toString()' method in order to print what I want
     @Override
     public String toString() {
         return "Rectangle{'a' side= " + a + ", 'b' side= " + b + "}";
@@ -46,7 +46,7 @@ public class Rectangle {
     }
 
 //    creating a method in order to
-//    find the are of the Rectangle
+//    find the area of the Rectangle
     public int getArea(){
         return 2*(this.a + this.b);
     }
